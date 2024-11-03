@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Merienda:wght@300..900&family=Prociono&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Merienda:wght@300..900&family=Prociono&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <title>Panadería Nahuel</title>
+    <!-- proyecto carrito de compras sobre producos de panadería -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <span class="material-symbols-outlined"><li><a href="index.html">home</a></li></span>
+                <li><a href="#historia">Nuestra Historia</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#consulta">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="presentacion">
+            <h1>PANADERIA NAHUEL</h1>
+            <img src="assest/image/logo.png" alt="logo panaderia nahuel">
+        </section>
+
+        <section id="historia">
+            <!-- primera seccion sobre nuestra historia/quienes somos, breve introduccion de la empresa -->
+             <h2>Nuestra historia</h2>
+             <div>
+                 <p>Un pequeño emprendimiento de panadería en sus primeros pasos que busca deleitar los sentidos con productos frescos y artesanales. Con una pasión por la panadería clásica francesa y la tradicional argentina, ofrecemos una variedad de panes, desde baguettes cruijientes hasta deliciosos churros, todos elaborados con ingredientes naturales de la mejor calidad.</p>
+                 <p>Cada pieza es el resultado de un meticuloso proceso que combina técnicas clásicas y un toque de innovación.</p>
+                 <p>No solo queremos alimentarnos, sino también crear momentos de felicidad y compartir la calidez del hogar en cada rebanada.</p>
+                 <p>¡Te invitamos a disfrutar de nuestro sabor!</p>
+            </div>
+           </section>
+
+        <section class="productos" id="productos">
+            <!-- segunda seccion sobre los productos, imagenes y breve descripcion-->
+            <h2 >Nuestros productos</h2>
+            <section class="ventas">
+                <div>
+                    <h3>Baguette</h3>
+                    <img src="assest/image/baguette.jpg" alt="imagen de baguettes">
+                    <p>Ideales para la picada</p>
+                </div>
+                <div>
+                    <h3>Crossaint</h3>
+                    <img src="assest/image/croissant.jpg" alt="imagen de crossaint">
+                    <p>Un sabor distinto</p>
+                </div>
+                <div>
+                    <h3>Pain au chocolat</h3>
+                    <img src="assest/image/painChocolat.jpg" alt="imagen de panes de chocolate">
+                    <p>Una combinación perfecta</p>
+                </div>
+                <div>
+                    <h3>Cookies</h3>
+                    <img src="assest/image/cookies.jpg" alt="imagen de cookies">
+                    <p>Modernas y sabrosas</p>
+                </div>
+                <div>
+                    <h3>Pan de campo</h3>
+                    <img src="assest/image/pan-campo.jpg" alt="imagen de pan de campo">
+                    <p>Acompañalo con lo que te guste</p>
+                </div>
+                 <div>
+                    <h3>Bizcochitos de grasa</h3>
+                    <img src="assest/image/bizcochos.jpg" alt="imagen de bizcochitos de grasa">
+                    <p>Infaltables con el mate</p>
+                </div>
+                <div>
+                    <h3>Churros</h3>
+                    <img src="assest/image/churros.jpg" alt="imagen de churros">
+                    <p>Un clásico argentino</p>
+                </div>
+            </section>
+        </section>
+
+        <section class="consulta" id="consulta">
+
+            <h2 >Dejanos tu consulta</h2>
+            <form action="" method="get">
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Apeliido">
+                </div>
+                <div>
+                    <label for="email">Correo electrónico: </label>
+                    <input type="email" name="email" id="email" placeholder="Correo electrónico">
+                </div>
+                <div>
+                    <label for="consulta">Consulta: </label>
+                    <textarea name="consulta" id="consulta" maxlength="250" placeholder="Escribe tu consulta"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <section>
+
+        </section>
+
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://www.instagram.com/pana.deria.nahuel/profilecard/?igsh=MWlhbjhyY3Jla3l0bw" target="_blank">Instagram</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
